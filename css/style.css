@@ -407,3 +407,60 @@ whoami-text p {
     left: 0;
     bottom: -30px;
 }
+
+/* Portfolio Start */
+#portfolio {
+    background-color: #dddddd;
+}
+
+.work {
+    margin: 20px 0px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.1);
+    position: relative;
+}
+
+.work:hover .work-text {
+    opacity: 1;
+}
+
+.work-text {
+    background-color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.work-text h4{
+    font-size: 1.5em;
+    padding: 10px 0px;
+}
+
+.work-text hp4{
+    padding: 10px 0px;
+}
+
+.work.one, .work.four {
+    background-image: url(../img/p1.jpg);
+    background-size: cover;
+}
+
+.work.two, .work.five {
+    background-image: url(../img/p2.jpg);
+    background-size: cover;
+}
+
+.work.three, .work.six {
+    background-image: url(../img/p3.jpg);
+    background-size: cover;
+}
+
+.work-icon {
+    position: absolute;
+    padding: 20px;
+    border-radius: 50%;
+    right: 10px;
+    bottom: 10px;
+    background-color: #3d405b;
+    color: #fff;
+    text-align: center;
+}
