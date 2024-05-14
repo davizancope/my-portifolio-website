@@ -464,3 +464,20 @@ whoami-text p {
     color: #fff;
     text-align: center;
 }
+
+/* By Numbers Start */
+.fact {
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.fact-icon {
+    font-size: 2.2em;
+    padding: 10px 0px;
+    color:#3d405b;
+}
+
+.fact-text {
+    font-weight: bold;
+}
