@@ -682,11 +682,6 @@ form button {
 /* -------------------- TABLETS -------------------- */
 /* Media Query for Tablets */
 @media screen and (min-width:750px) {
-    /* Header */
-    #header {
-
-    }
-
     #navigation {
         transform: translateX(0px);
         width: 100%;
@@ -764,5 +759,53 @@ form button {
     #contact-us form {
         max-width: 500px;
         margin: 30px auto;
+    }
+}
+
+/* -------------------- DESKTOP -------------------- */
+/* Media Query for Desktops */
+
+@media screen and (min-width: 1000px) {
+    #header #logo {
+        display: inline-block;
+        width: auto;
+    }
+
+    #header #navigation {
+        display: inline-block;
+        width: auto;
+    }
+
+    .whoami {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .service,
+    .skill,
+    .work,
+    .fact,
+    .testimonial,
+    .post {
+        width: 31%;
+        margin: 1%;
+    }
+
+    .skill {
+        margin-top: 50px;
+    }
+
+    .testimonial {
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    .testimonial.two {
+        transform: scale(1.1);
+    }
+
+    #skills,
+    #by-numbers {
+        text-align: center;
     }
 }
