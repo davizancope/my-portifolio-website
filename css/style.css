@@ -600,3 +600,47 @@ whoami-text p {
     display: inline-block;
     padding: 15px 0px;
 }
+
+/* Get in Touch Start */
+#get-in-touch {
+    background-color: #191c35;
+    color: #fff;
+}
+
+/* Contact Us Start */
+#contact-us {
+    background-color: #dddddd;
+}
+
+form {
+    padding: 20px;
+    background-color: #fff;
+    margin: 30px 0px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    background-color: #dddddd;
+    border: 3px solid transparent;
+    transition: border 0.4s;
+}
+
+form input:hover,
+form input:focus,
+form textarea:hover,
+form textarea:focus {
+    border: 3px solid #e07a5f;
+}
+
+form button {
+    color: #fff;
+    background-color: #e07a5f;
+    margin-top: 20px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.2);
+    cursor: pointer;
+}
